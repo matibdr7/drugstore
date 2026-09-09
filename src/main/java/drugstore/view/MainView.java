@@ -14,17 +14,7 @@ public class MainView extends VerticalLayout {
     public MainView() {
         add("DRUGSTORE \n Sistema de gestion");
 
-        Card card = new Card();
-        card.setTitle("Titulo de la card");
-
-        Paragraph p1 = new Paragraph(
-            """
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    """
-        );
-
-        card.add(p1);
-        add(card);
+        
 
     }
 }
