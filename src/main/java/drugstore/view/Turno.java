@@ -5,6 +5,8 @@ import java.time.LocalDateTime;
 
 public class Turno {
 
+    public static final String SESSION_ATTRIBUTE = Turno.class.getName() + ".actual";
+
     private String empleado;
     private LocalDateTime apertura; 
     private LocalDateTime cierre;
